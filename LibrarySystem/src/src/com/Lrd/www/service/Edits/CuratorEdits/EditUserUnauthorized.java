@@ -28,7 +28,7 @@ import java.util.HashMap;
  */
 public class EditUserUnauthorized implements Edit {
     private String nowProcess = "请输入id:";
-    private int editTime = 0;
+    private int editTime = 1;
     private User u;
     private User onlineUser;
 
@@ -76,7 +76,7 @@ public class EditUserUnauthorized implements Edit {
         }
     }
 
-    public void setOnLineUser(User onLineUser) {
+    public void setOnLineUser(User onlineUser) {
         this.onlineUser = onlineUser;
     }
     @Override

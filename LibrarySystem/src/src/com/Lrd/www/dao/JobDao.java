@@ -31,7 +31,7 @@ public class JobDao {
     /*通过对应string寻找job对应的id号*/
     public int findJobId(String job) throws SQLException {
         AllDao ad = AllDao.getAd();
-        int id = ad.findId("job_name","job_name",job);
+        int id = ad.findId("job_name","job_name","\'"+job+"\'");
         return id;
     }
 

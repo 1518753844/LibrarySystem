@@ -24,7 +24,9 @@ public class SelectStaffView implements ViewI {
             System.out.printf("%5s \t%15s \t%15s \t%15s \t%15s \t%5s\n","id","姓名","职业","用户名","所处图书馆","授权状态");
             System.out.println("----------------------------------------------------------------------------------------------------");
             for (User u : users) {
-                System.out.println(u);
+                if(!"馆长".equals(u.getJob())){
+                    System.out.println(u);
+                }
             }
         } catch (SQLException e) {
             System.out.println("信息系统出错");

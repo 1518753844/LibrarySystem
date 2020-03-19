@@ -8,7 +8,7 @@ import java.sql.SQLException;
  * @author
  * @date 2020/2/19-11:10
  */
-public class DbUtil {
+public class DBUtil {
     private final static String URL = "jdbc:mysql://localhost:3306/library_system?serverTimezone=GMT%2B8";
     private final static String USER= "root";
     private final static String PASSWORD = "root";
