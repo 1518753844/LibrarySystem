@@ -3,7 +3,7 @@ package src.com.Lrd.www.util;
 import java.sql.Connection;
 
 /**
- * @author
+ * @author dada哈哈哈
  * @date 2020/2/19-11:10
  */
 public class DBUtil {
